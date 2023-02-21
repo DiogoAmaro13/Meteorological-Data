@@ -3,11 +3,11 @@ import requests
 
 #Input the API key and the url of that API
 API_KEY = input("Enter your API key: ")
-url = input("Enter the url of the API: ")
+API_URL = input("Enter the url of the API: ")
 
 #Making a request
 city = input("Enter a city name: ")
-request_url = f"{url}?appid={API_KEY}&q={city}"
+request_url = f"{API_URL}?appid={API_KEY}&q={city}"
 response = requests.get(request_url)
 
 #Get the full data

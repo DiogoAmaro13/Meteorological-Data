@@ -1,2 +1,2 @@
 # Meteorological-Data
-Get the current meteorological data of any city.
+Provide any city and get the main parameters of the current meteorological state of that city.
